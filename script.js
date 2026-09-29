@@ -1,0 +1,1 @@
+function updateClock(){const n=new Date();const p=n=>String(n).padStart(2,'0');document.getElementById('clock').textContent=`${p(n.getHours())}:${p(n.getMinutes())}:${p(n.getSeconds())}\n${p(n.getDate())}/${p(n.getMonth()+1)}/${n.getFullYear()}`;}updateClock();setInterval(updateClock,1000);

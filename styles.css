@@ -1,0 +1,48 @@
+:root{--pad:24px;--nav:23vw;--gap:28px;--text:#111;--line:#111}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#fff;color:var(--text);font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.25;font-weight:400}
+a{color:inherit;text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:3px}
+.site{min-height:100vh}
+.nav{position:fixed;left:0;top:0;width:var(--nav);height:100vh;padding:var(--pad);display:flex;flex-direction:column;z-index:10}
+.brand{font-weight:700;line-height:1.05;margin-bottom:32px}
+.brand a{display:block}
+.tagline{font-weight:400;margin-top:5px}
+.menu{display:flex;flex-direction:column;gap:4px}
+.menu a,.menu .sub{display:block}
+.menu .sub{padding-left:16px}
+.menu .section{margin-top:14px}
+.clock{margin-top:auto;font-variant-numeric:tabular-nums;line-height:1.2}
+.content{margin-left:var(--nav);padding:var(--pad);max-width:1400px}
+.page-title{font-weight:700;margin:0}
+.rule{border:0;border-top:1px solid var(--line);margin:5px 0 24px}
+.intro{max-width:720px;margin-bottom:45px}
+.lead{font-size:18px;line-height:1.12;margin-bottom:14px}
+.text{max-width:720px}
+.text p{margin:0 0 16px}
+.section-block{margin:0 0 52px}
+.section-title{font-weight:700;margin-bottom:10px}
+.project-list{display:flex;flex-direction:column;gap:38px;max-width:900px}
+.project h2{font-size:16px;margin:0 0 7px;font-weight:700}
+.project p{margin:0 0 9px;max-width:760px}
+.project .meta{margin-top:10px}
+.material{margin-top:12px}
+.sound-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:36px 18px}
+.sound-item{min-width:0}
+.sound-poster{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;background:#f2f2f2}
+.sound-item.wide .sound-poster{object-fit:contain}
+.sound-caption{margin-top:9px;text-align:center;font-size:12px;line-height:1.15}
+.sound-title{font-weight:700;margin-bottom:3px}
+.sound-caption div{margin-bottom:2px}
+.sound-item a.poster-link:hover .sound-poster{opacity:.82}
+.audio-entry{max-width:700px;margin-top:30px}
+audio{width:100%;height:38px}
+.field-notes{margin-top:16px;font-size:12px;line-height:1.35}
+.field-notes span{display:block}
+.contact p{margin:0 0 8px}
+.back{display:inline-block;margin-top:25px}
+.mobile-menu{display:none}
+@media(max-width:1000px){:root{--nav:28vw}.sound-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:700px){:root{--nav:0px;--pad:16px}.nav{position:relative;width:100%;height:auto;padding:16px}.clock{display:none}.content{margin-left:0;padding:16px}.mobile-menu{display:block}.sound-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 12px}.intro{margin-bottom:35px}}
+@media(max-width:440px){.sound-grid{grid-template-columns:1fr}.sound-caption{text-align:left}}
