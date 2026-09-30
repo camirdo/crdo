@@ -15,18 +15,18 @@ a:hover{text-decoration:underline;text-underline-offset:3px}
 .menu .sub{padding-left:25px;font-size:26px;font-weight:400}
 .menu .section{margin-top:18px}
 .clock{margin-top:auto;font-variant-numeric:tabular-nums;line-height:1.2}
-.content{margin-left:var(--nav);padding:var(--pad);width:calc(100% - var(--nav));max-width:none}
+.content{margin-left:var(--nav);padding:var(--pad) 48px var(--pad) var(--pad);width:calc(100% - var(--nav));max-width:none}
 .page-title{font-size:25px;font-weight:400;margin:0}
 .rule{border:0;border-top:1px solid var(--line);margin:5px 0 24px}
-.intro{max-width:none;margin-bottom:45px}
+.intro{max-width:none;margin-bottom:45px;text-align:justify}
 .lead{font-size:24px;line-height:1.15;margin-bottom:14px}
 .text{max-width:none}
-.text p{margin:0 0 16px}
+.text p{margin:0 0 16px;text-align:justify}
 .section-block{margin:0 0 52px}
 .section-title{font-weight:400;margin-bottom:10px}
 .project-list{display:flex;flex-direction:column;gap:38px;width:100%;max-width:none}
 .project{width:100%;max-width:none}.project h2{font-size:22px;margin:0 0 7px;font-weight:400}
-.project p{margin:0 0 9px;width:100%;max-width:none!important}
+.project p{margin:0 0 9px;width:100%;max-width:none!important;text-align:justify}
 .project .meta{margin-top:10px}
 .material{margin-top:12px}
 .sound-map-embed{width:88%;height:60vh;min-height:460px;margin:24px 0 28px;overflow:hidden}
