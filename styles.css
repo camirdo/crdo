@@ -10,10 +10,10 @@ a:hover{text-decoration:underline;text-underline-offset:3px}
 .brand{font-weight:600;line-height:1.05;margin-bottom:32px}
 .brand a{display:block}
 .tagline{font-weight:400;margin-top:5px}
-.menu{display:flex;flex-direction:column;gap:4px}
+.menu{display:flex;flex-direction:column;gap:5px;font-size:21px;line-height:1.12}
 .menu a,.menu .sub{display:block}
-.menu .sub{padding-left:16px}
-.menu .section{margin-top:14px}
+.menu .sub{padding-left:18px;font-size:18px}
+.menu .section{margin-top:18px}
 .clock{margin-top:auto;font-variant-numeric:tabular-nums;line-height:1.2}
 .content{margin-left:var(--nav);padding:var(--pad);max-width:1400px}
 .page-title{font-size:20px;font-weight:600;margin:0}
