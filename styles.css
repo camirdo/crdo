@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
-:root{--pad:24px;--nav:23vw;--gap:28px;--text:#111;--line:#111}
+:root{--pad:24px;--nav:30vw;--gap:28px;--text:#111;--line:#111}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:#fff;color:var(--text);font-family:'Space Grotesk',Arial,Helvetica,sans-serif;font-size:22px;line-height:1.18;font-weight:400}
@@ -24,9 +24,9 @@ a:hover{text-decoration:underline;text-underline-offset:3px}
 .text p{margin:0 0 16px}
 .section-block{margin:0 0 52px}
 .section-title{font-weight:700;margin-bottom:10px}
-.project-list{display:flex;flex-direction:column;gap:38px;max-width:none}
-.project h2{font-size:22px;margin:0 0 7px;font-weight:700}
-.project p{margin:0 0 9px;max-width:none}
+.project-list{display:flex;flex-direction:column;gap:38px;width:100%;max-width:none}
+.project{width:100%;max-width:none}.project h2{font-size:22px;margin:0 0 7px;font-weight:700}
+.project p{margin:0 0 9px;width:100%;max-width:none!important}
 .project .meta{margin-top:10px}
 .material{margin-top:12px}
 .sound-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:36px 18px}
