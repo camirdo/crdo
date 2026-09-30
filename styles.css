@@ -15,18 +15,18 @@ a:hover{text-decoration:underline;text-underline-offset:3px}
 .menu .sub{padding-left:25px;font-size:26px}
 .menu .section{margin-top:18px}
 .clock{margin-top:auto;font-variant-numeric:tabular-nums;line-height:1.2}
-.content{margin-left:var(--nav);padding:var(--pad);max-width:1400px}
+.content{margin-left:var(--nav);padding:var(--pad);width:calc(100% - var(--nav));max-width:none}
 .page-title{font-size:25px;font-weight:500;margin:0}
 .rule{border:0;border-top:1px solid var(--line);margin:5px 0 24px}
-.intro{max-width:720px;margin-bottom:45px}
+.intro{max-width:none;margin-bottom:45px}
 .lead{font-size:24px;line-height:1.15;margin-bottom:14px}
-.text{max-width:720px}
+.text{max-width:none}
 .text p{margin:0 0 16px}
 .section-block{margin:0 0 52px}
 .section-title{font-weight:700;margin-bottom:10px}
-.project-list{display:flex;flex-direction:column;gap:38px;max-width:900px}
+.project-list{display:flex;flex-direction:column;gap:38px;max-width:none}
 .project h2{font-size:22px;margin:0 0 7px;font-weight:700}
-.project p{margin:0 0 9px;max-width:760px}
+.project p{margin:0 0 9px;max-width:none}
 .project .meta{margin-top:10px}
 .material{margin-top:12px}
 .sound-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:36px 18px}
