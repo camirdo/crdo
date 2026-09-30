@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
 :root{--pad:24px;--nav:30vw;--gap:28px;--text:#111;--line:#111}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;background:#fff;color:var(--text);font-family:'IBM Plex Sans Condensed',Arial,Helvetica,sans-serif;font-size:22px;line-height:1.18;font-weight:300}
+body{margin:0;background:#fff;color:var(--text);font-family:'Inter',Arial,Helvetica,sans-serif;font-size:22px;line-height:1.2;font-weight:200}
 a{color:inherit;text-decoration:none}
 a:hover{text-decoration:underline;text-underline-offset:3px}
 .site{min-height:100vh}
 .nav{position:fixed;left:0;top:0;width:var(--nav);height:100vh;padding:var(--pad);display:flex;flex-direction:column;z-index:10}
-.brand{font-weight:600;line-height:1.05;margin-bottom:32px}
+.brand{font-weight:500;line-height:1.05;margin-bottom:32px}
 .brand a{display:block}
 .tagline{font-weight:400;margin-top:5px}
 .menu{display:flex;flex-direction:column;gap:6px;font-size:28px;line-height:1.08}
@@ -16,16 +16,16 @@ a:hover{text-decoration:underline;text-underline-offset:3px}
 .menu .section{margin-top:18px}
 .clock{margin-top:auto;font-variant-numeric:tabular-nums;line-height:1.2}
 .content{margin-left:var(--nav);padding:var(--pad);width:calc(100% - var(--nav));max-width:none}
-.page-title{font-size:25px;font-weight:500;margin:0}
+.page-title{font-size:25px;font-weight:400;margin:0}
 .rule{border:0;border-top:1px solid var(--line);margin:5px 0 24px}
 .intro{max-width:none;margin-bottom:45px}
 .lead{font-size:24px;line-height:1.15;margin-bottom:14px}
 .text{max-width:none}
 .text p{margin:0 0 16px}
 .section-block{margin:0 0 52px}
-.section-title{font-weight:500;margin-bottom:10px}
+.section-title{font-weight:400;margin-bottom:10px}
 .project-list{display:flex;flex-direction:column;gap:38px;width:100%;max-width:none}
-.project{width:100%;max-width:none}.project h2{font-size:22px;margin:0 0 7px;font-weight:500}
+.project{width:100%;max-width:none}.project h2{font-size:22px;margin:0 0 7px;font-weight:400}
 .project p{margin:0 0 9px;width:100%;max-width:none!important}
 .project .meta{margin-top:10px}
 .material{margin-top:12px}
@@ -34,7 +34,7 @@ a:hover{text-decoration:underline;text-underline-offset:3px}
 .sound-poster{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;background:#f2f2f2}
 .sound-item.wide .sound-poster{object-fit:contain}
 .sound-caption{margin-top:9px;text-align:center;font-size:14px;line-height:1.2}
-.sound-title{font-weight:500;margin-bottom:3px}
+.sound-title{font-weight:400;margin-bottom:3px}
 .sound-caption div{margin-bottom:2px}
 .sound-item a.poster-link:hover .sound-poster{opacity:.82}
 .audio-entry{max-width:700px;margin-top:30px}
