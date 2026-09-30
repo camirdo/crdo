@@ -10,9 +10,9 @@ a:hover{text-decoration:underline;text-underline-offset:3px}
 .brand{font-weight:500;line-height:1.05;margin-bottom:32px}
 .brand a{display:block}
 .tagline{font-weight:400;margin-top:5px}
-.menu{display:flex;flex-direction:column;gap:6px;font-size:28px;line-height:1.08}
+.menu{display:flex;flex-direction:column;gap:6px;font-size:28px;line-height:1.08;font-weight:400}
 .menu a,.menu .sub{display:block}
-.menu .sub{padding-left:25px;font-size:26px}
+.menu .sub{padding-left:25px;font-size:26px;font-weight:400}
 .menu .section{margin-top:18px}
 .clock{margin-top:auto;font-variant-numeric:tabular-nums;line-height:1.2}
 .content{margin-left:var(--nav);padding:var(--pad);width:calc(100% - var(--nav));max-width:none}
